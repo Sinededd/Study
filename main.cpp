@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
 
-void f()
-{
-	cout<<"xxx";
-}    
 
 int main(){
-    int a[]={2,4,1};
-    cout<<a[2]<<endl;
+    int a;
+    cin>>a;
+    int b;
+    cin>>b;
+    cout<<"a: "<<a<<endl;
+    cout<<"b: "<<b<<endl;
+    cout<<"sum: "<<a+b<<endl;
     return 0;
 }
